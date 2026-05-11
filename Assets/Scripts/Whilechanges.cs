@@ -18,13 +18,15 @@ public class Whilechanges : MonoBehaviour
                 Debug.Log("El elemento C se encuentra en la posicion " + i);
 
             }
+
             i++;
         }
 
-        // Update is called once per frame
-        void Update()
-        {
 
-        }
+    }
+    // Update is called once per frame
+        void Update()
+    {
+
     }
 }
