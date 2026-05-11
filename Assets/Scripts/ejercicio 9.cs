@@ -2,10 +2,16 @@ using UnityEngine;
 
 public class ejercicio9 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    string contraseña = "";
     void Start()
     {
-        
+        do
+        {
+            Debug.Log("Ingresando contraseña...");
+            contraseña = "admin";
+        } while (contraseña != "admin");
+
+        Debug.Log("Contraseña correcta");
     }
 
     // Update is called once per frame
